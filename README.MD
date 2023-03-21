@@ -42,4 +42,4 @@ managedNodeGroups:
 ```
 To create cluster with above config file.
 ```
-eksctl create cluster --config-file=[file-name].yam
+eksctl create cluster --config-file=[file-name].yaml
