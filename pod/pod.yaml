@@ -3,7 +3,8 @@ kind: pod
 metadata:
   name: nginx
 spec:
-- image: nginx:1.14.2
-  name: nginx
-  ports:
-  - containerport: 80
+  containers:
+  - image: nginx:1.14.2
+    name: nginx
+    ports:
+    - containerport: 80
