@@ -6,6 +6,8 @@ metadata:
     course: kubernetes
     duration: 25hrs
     trainer: siva
+  #annotations:
+    #org.docker.kubernetes.image.maintainer:bala
 spec:
   containers:
   - name: nginx
